@@ -1,3 +1,13 @@
+:root {
+    --color-primary: hsl(322, 100%, 66%);
+    --color-very-pale-cyan: hsl(193, 100%, 96%);
+    --color-very-dark-cyan: hsl(192, 100%, 9%);
+    --color-grayish-blue: hsl(208, 11%, 55%);
+
+    --font-open-sans: 'Open Sans', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+}
+
 html {
     box-sizing: border-box;
 }
