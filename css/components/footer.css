@@ -1,0 +1,55 @@
+footer {
+  background-color: var(--color-very-dark-cyan);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.footer-logo {
+  margin-bottom: 1.2rem;
+  width: 120px;
+  height: 20px;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 30px auto;
+  margin-top: 1rem;
+}
+
+.contact__image {
+  grid-column: 1 / 2;
+  padding: 0.3rem 0 0 0;
+  width: 15px;
+}
+
+.contact__info {
+  padding: 0 0.5rem;
+  margin: 0;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__nav-first {
+  margin-top: 1rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.footer__link {
+  color: white;
+  padding: 0.5rem 0;
+  text-decoration: none;
+}
