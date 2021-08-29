@@ -17,6 +17,16 @@ html {
 }
 
 body {
-    margin: 0;
-    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+    margin: 0 auto;
+    width: 375px;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+    }
 }
