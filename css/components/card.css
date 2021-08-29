@@ -25,3 +25,68 @@
   padding: 0 2rem;
   text-align: center;
 }
+
+@media screen and (min-width: 1440px) {
+  main {
+    padding-top: 6rem;
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 2.5rem 1.5rem 2.5rem 6rem;
+    margin: 3rem 4rem;
+  }
+
+  .card__image {
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+    justify-self: right;
+    width: 400px;
+  }
+
+  .card__title {
+    align-self: flex-end;
+    font-size: 2rem;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-bottom: 0.5rem;
+  }
+
+  .card__content {
+    align-self: flex-start;
+    font-size: 1.2rem;
+    grid-column: 1 / 2;
+    grid-row: 2 / -1;
+    padding-left: 0;
+    padding-right: 9rem;
+    text-align: left;
+  }
+
+  .card__image-left {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    justify-self: left;
+    width: 400px;
+  }
+
+  .card__title-right {
+    align-self: flex-end;
+    font-size: 2rem;
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    padding-left: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .card__content-right {
+    align-self: flex-start;
+    font-size: 1.2rem;
+    grid-column: 2 / -1;
+    grid-row: 2 / -1;
+    padding-left: 3rem;
+    padding-right: 0;
+    text-align: left;
+  }
+}
