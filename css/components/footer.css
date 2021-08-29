@@ -54,6 +54,23 @@ footer {
   text-decoration: none;
 }
 
+.social-media__link {
+  color: var(--color-very-pale-cyan);
+  padding: 0.5rem 0;
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.social-media__link:hover {
+  color: var(--color-primary);
+  padding: 0.5rem 0;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1440px) {
   footer {
     display: grid;

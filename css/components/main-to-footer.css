@@ -44,6 +44,11 @@
   margin: 1.5rem auto;
   text-align: center;
   text-decoration: none;
+  transition: background-color 0.3s ease-in;
+}
+
+.join-card__button:hover {
+  background-color: var(--color-button-hover);
 }
 
 @media screen and (min-width: 1440px) {
