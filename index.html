@@ -1,13 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <title>Design Exercise</title>
-</head>
-<body>
-    Welcome to your design exercise!
-</body>
+  </head>
+  <body>
+    <header>
+      <section class="header-title">
+        <h1 class="header-title__title">Huddle</h1>
+        <img
+          class="header-title__logo"
+          src="design/images/logo.svg"
+          alt="logo"
+        />
+        <a class="header-title__button" href="#">Try It Free</a>
+      </section>
+      <section class="header-content">
+        <h2 class="header-content__title">
+          Build The Community Your Fans Will Love
+        </h2>
+        <p class="header-content__info">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <a class="header-content__button" href="#">Get Started For Free</a>
+      </section>
+      <section class="header-preview">
+        <img
+          class="header-preview__image"
+          src="design/images/illustration-mockups.svg"
+          alt="preview"
+        />
+      </section>
+    </header>
+    <main>
+      <section class="card">
+        <img
+          class="card__image"
+          src="design/images/illustration-grow-together.svg"
+          alt="Grow Together"
+        />
+        <h2 class="card__title">Grow Together</h2>
+        <p class="card__content">
+          Generate meaningful discussions with your audience and build a strong,
+          loyal community. Think of the insightful conversations you miss out on
+          with a feedback form.
+        </p>
+      </section>
+      <section class="card">
+        <img
+          class="card__image card__image-left"
+          src="design/images/illustration-flowing-conversation.svg"
+          alt="Flowing Conversation"
+        />
+        <h2 class="card__title card__title-right">Flowing Conversation</h2>
+        <p class="card__content card__content-right">
+          You wouldn't paginate a conversation in real life, so why do it
+          online? Our threads have just-in-time loading for a more natural flow.
+        </p>
+      </section>
+      <section class="card">
+        <img
+          class="card__image"
+          src="design/images/illustration-your-users.svg"
+          alt="Your Users"
+        />
+        <h2 class="card__title">Your Users</h2>
+        <p class="card__content">
+          It takes no time at all to integrate Huddle with your app's
+          authentication solution. This means, once signed in to your app, your
+          users can start chatting immediately.
+        </p>
+      </section>
+      <section class="main-to-footer">
+        <section class="join-card">
+          <h2 class="join-card__title">Ready To Build Your Community?</h2>
+          <a href="#" class="join-card__button">Get Started For Free</a>
+        </section>
+        <section class="main-to-footer__main"></section>
+        <section class="main-to-footer__footer"></section>
+      </section>
+    </main>
+    <footer>
+      <img class="footer-logo" src="design/images/logo-white.svg" alt="logo" />
+      <section class="contact__grid">
+        <section class="contact contact-one">
+          <img
+            class="contact__image"
+            src="design/images/icon-location.svg"
+            alt="location"
+          />
+          <p class="contact__info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti
+            saepe quaerat facilis. Enim qui dolore porro odit ipsam!
+          </p>
+        </section>
+        <section class="contact contact-two">
+          <img
+            class="contact__image"
+            src="design/images/icon-phone.svg"
+            alt="phone"
+          />
+          <p class="contact__info">+1-543-123-4567</p>
+        </section>
+        <section class="contact contact-three">
+          <img
+            class="contact__image"
+            src="design/images/icon-email.svg"
+            alt="email"
+          />
+          <p class="contact__info">
+            <a class="footer__link" href="#">example@fylo.com</a>
+          </p>
+        </section>
+      </section>
+      <nav aria-label="navigation" class="footer__nav footer__nav-first">
+        <a class="footer__link" href="#">About Us</a>
+        <a class="footer__link" href="#">What We Do</a>
+        <a class="footer__link" href="#">FAQ</a>
+      </nav>
+      <nav aria-label="navigation" class="footer__nav footer__nav-second">
+        <a class="footer__link" href="#">Career</a>
+        <a class="footer__link" href="#">Blog</a>
+        <a class="footer__link" href="#">Contact Us</a>
+      </nav>
+      <section class="social-media">
+        <a class="social-media__link" href="#"
+          ><ion-icon size="large" name="logo-facebook"></ion-icon
+        ></a>
+        <a class="social-media__link" href="#"
+          ><ion-icon size="large" name="logo-twitter"></ion-icon
+        ></a>
+        <a class="social-media__link" href="#"
+          ><ion-icon size="large" name="logo-instagram"></ion-icon
+        ></a>
+      </section>
+      <p class="copyright">
+        &copy; Copyright 2018 Huddle. All rights reserved.
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>

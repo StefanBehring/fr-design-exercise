@@ -1,0 +1,118 @@
+header {
+  background-color: var(--color-very-pale-cyan);
+  background-image: url('../../design/images/bg-hero-mobile.svg');
+  padding: 1rem;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title__title {
+  display: none;
+}
+
+.header-title__logo {
+  width: 120px;
+  height: 20px;
+}
+
+.header-title__button {
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 1px 10px var(--color-box-shadow);
+  color: var(--color-very-dark-cyan);
+  font-weight: 700;
+  padding: 0.7rem 2.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.header-content__title {
+  font-family: var(--font-poppins);
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.header-content__info {
+  margin: 1.5rem 0;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.header-content__button {
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 50px;
+  font-weight: 700;
+  padding: 0.7rem 1.5rem;
+  margin: 1.5rem auto;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in;
+}
+
+.header-content__button:hover {
+  background-color: var(--color-button-hover);
+}
+
+.header-preview__image {
+  margin: 1rem auto;
+  width: 340px;
+  height: auto;
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    background-image: url(../../design/images/bg-hero-desktop.svg);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2rem 4rem;
+  }
+
+  .header-title {
+    grid-column: 1 / -1;
+  }
+
+  .header-content {
+    align-items: left;
+    grid-column: 1 / 2;
+    justify-content: center;
+  }
+
+  .header-content__title {
+    font-size: 2.2rem;
+    text-align: left;
+  }
+
+  .header-content__info {
+    padding: 0 2.8rem 0 0;
+    text-align: left;
+  }
+
+  .header-content__button {
+    margin: 1rem 0 0;
+    width: 210px;
+  }
+
+  .header-preview {
+    display: flex;
+    justify-content: flex-end;
+    grid-column: 2 / -1;
+  }
+
+  .header-preview__image {
+    margin: 2rem 0 0;
+    width: 600px;
+  }
+}

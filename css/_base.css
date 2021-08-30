@@ -1,12 +1,40 @@
+:root {
+  --color-primary: hsl(322, 100%, 66%);
+  --color-button-hover: hsl(322, 100%, 80%);
+  --color-very-pale-cyan: hsl(193, 100%, 96%);
+  --color-very-dark-cyan: hsl(192, 100%, 9%);
+  --color-grayish-blue: hsl(208, 11%, 55%);
+  --color-box-shadow: hsl(208, 11%, 77%);
+
+  --font-open-sans: 'Open Sans', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
+}
+
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 * {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-open-sans);
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 0 auto;
+  width: var(--width-mobile);
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    width: var(--width-desktop);
+  }
 }
